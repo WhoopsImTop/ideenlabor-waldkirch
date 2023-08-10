@@ -29,5 +29,5 @@ on:
             username: khri8@pacadu-technology.com
             password: ${{ secrets.password }}
             local-dir: "./dist/"
-            server-dir: "ideenlabor-waldkirch/"
+            server-dir: "htdocs/ideenlabor-waldkirch/"
             port: 21
