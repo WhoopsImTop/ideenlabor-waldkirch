@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Ideenlabor Waldkirch",
-    description: "Werbeagentur, Coworking und Eventlocations in Waldkirch",
+    description: "Ideenlabor Waldkirch: Deine vielseitige Lösung für kreative Werbung, inspirierendes Coworking und unvergessliche Eventlocations. Entdecke unser breites Spektrum an kreativen Dienstleistungen, von maßgeschneiderter Werbeberatung bis hin zu innovativem Eventmanagement. Als Werbeagentur setzen wir deine Ideen in überzeugende Botschaften um. Nutze unser modernes Coworking-Angebot, um in einer inspirierenden Umgebung zu arbeiten. Unsere Eventlocations bieten den idealen Rahmen für unvergessliche Veranstaltungen. Verwirkliche deine Visionen im Ideenlabor Waldkirch!",
     htmlAttrs: {
       lang: "de",
     },

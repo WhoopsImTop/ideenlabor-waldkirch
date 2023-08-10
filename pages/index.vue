@@ -13,26 +13,56 @@
         </div>
         <div class="col-50" style="background: transparent">
           <p>
-            Tauchen Sie ein in die Welt des Ideenlabors auf dem <a href="https://fabrik-sonntag.de" style="color: #0d2a44; font-weight: bold" target="blank">Fabrik Sonntag</a>
+            Tauchen Sie ein in die Welt des Ideenlabors auf dem
+            <a
+              href="https://fabrik-sonntag.de"
+              style="color: #0d2a44; font-weight: bold"
+              target="blank"
+              >Fabrik Sonntag</a
+            >
             Campus in Waldkirch. Das Ideenlabor vereint eine dynamische
             Full-Service-Werbeagentur und ein inspirierendes Coworking-Zentrum.
-            Die <a href="https://khri8.com" style="color: #0d2a44; font-weight: bold" target="_blank">Ideenlabor-Agentur</a> liefert Ihnen außergewöhnliche
-            Markenerlebnisse, innovative Ideen und kreative Umsetzungen. Das
-            <a href="https://ideenlabor-coworking.de" style="color: #0d2a44; font-weight: bold" target="_blank">Ideenlabor-Coworking</a> ist der ideale Ort für konzentriertes Arbeiten
-            in einem einzigartigen Arbeitsumfeld mit flexiblen Möglichkeiten und
-            modern ausgestatteten Meetingräumen.
+            Die
+            <a
+              href="https://khri8.com"
+              style="color: #0d2a44; font-weight: bold"
+              target="_blank"
+              >Ideenlabor-Agentur</a
+            >
+            liefert Ihnen außergewöhnliche Markenerlebnisse, innovative Ideen
+            und kreative Umsetzungen. Das
+            <a
+              href="https://ideenlabor-coworking.de"
+              style="color: #0d2a44; font-weight: bold"
+              target="_blank"
+              >Ideenlabor-Coworking</a
+            >
+            ist der ideale Ort für konzentriertes Arbeiten in einem
+            einzigartigen Arbeitsumfeld mit flexiblen Möglichkeiten und modern
+            ausgestatteten Meetingräumen.
           </p>
         </div>
       </div>
     </div>
 
     <div class="content-container">
-      <div class="grid-3" style="padding: 20px;">
+      <div class="grid-3" style="padding: 20px">
         <div class="contact-information">
           <h3>Kontaktdaten</h3>
           <div>
-            <p><a style="color: #0d2a44" href="https://khri8.com" target="_blank"><strong>Ideenlabor Agentur</strong></a></p>
-            <p><a style="color: #0d2a44" href="https://www.google.de/maps/place/Fabrik+Sonntag+2,+79183+Waldkirch/@48.098115,7.9651153,17z/data=!3m1!4b1!4m6!3m5!1s0x47911fded665ae07:0x5747acad2348c975!8m2!3d48.098115!4d7.9676902!16s%2Fg%2F11c43vksxp?entry=ttu" target="_blank">Fabrik Sonntag 2</a></p>
+            <p>
+              <a style="color: #0d2a44" href="https://khri8.com" target="_blank"
+                ><strong>Ideenlabor Agentur</strong></a
+              >
+            </p>
+            <p>
+              <a
+                style="color: #0d2a44"
+                href="https://www.google.de/maps/place/Fabrik+Sonntag+2,+79183+Waldkirch/@48.098115,7.9651153,17z/data=!3m1!4b1!4m6!3m5!1s0x47911fded665ae07:0x5747acad2348c975!8m2!3d48.098115!4d7.9676902!16s%2Fg%2F11c43vksxp?entry=ttu"
+                target="_blank"
+                >Fabrik Sonntag 2</a
+              >
+            </p>
             <p>79183 Waldkirch</p>
             <p>
               <a href="mailto:info@ideenlabor-agentur.de"
@@ -41,8 +71,22 @@
             </p>
           </div>
           <div style="margin-top: 20px">
-            <p><a style="color: #0d2a44" href="https://ideenlabor-sonntag.de" target="_blank"><strong>Ideenlabor Coworking</strong></a></p>
-            <p><a style="color: #0d2a44" href="https://www.google.de/maps/place/Fabrik+Sonntag+6,+79183+Waldkirch/@48.09836,7.9657751,17z/data=!3m1!4b1!4m6!3m5!1s0x47911fdf25fad1af:0xd3de7435d58821da!8m2!3d48.09836!4d7.96835!16s%2Fg%2F11c5pg5p3n?entry=ttu" target="_blank">Fabrik Sonntag 4, 6</a></p>
+            <p>
+              <a
+                style="color: #0d2a44"
+                href="https://ideenlabor-sonntag.de"
+                target="_blank"
+                ><strong>Ideenlabor Coworking</strong></a
+              >
+            </p>
+            <p>
+              <a
+                style="color: #0d2a44"
+                href="https://www.google.de/maps/place/Fabrik+Sonntag+6,+79183+Waldkirch/@48.09836,7.9657751,17z/data=!3m1!4b1!4m6!3m5!1s0x47911fdf25fad1af:0xd3de7435d58821da!8m2!3d48.09836!4d7.96835!16s%2Fg%2F11c5pg5p3n?entry=ttu"
+                target="_blank"
+                >Fabrik Sonntag 4, 6</a
+              >
+            </p>
             <p>79183 Waldkirch</p>
             <p>
               <a href="mailto:info@ideenlabor-coworking.de"
@@ -113,7 +157,8 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Werbeagentur, Coworking und Eventlocations in Waldkirch",
+          content:
+            "Ideenlabor Waldkirch: Deine vielseitige Lösung für kreative Werbung, inspirierendes Coworking und unvergessliche Eventlocations. Entdecke unser breites Spektrum an kreativen Dienstleistungen, von maßgeschneiderter Werbeberatung bis hin zu innovativem Eventmanagement. Als Werbeagentur setzen wir deine Ideen in überzeugende Botschaften um. Nutze unser modernes Coworking-Angebot, um in einer inspirierenden Umgebung zu arbeiten. Unsere Eventlocations bieten den idealen Rahmen für unvergessliche Veranstaltungen. Verwirkliche deine Visionen im Ideenlabor Waldkirch!",
         },
       ],
     };
