@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    <link rel="preconnect" href="//app.eu.usercentrics.eu" />
+
+    <link rel="preconnect" href="//api.eu.usercentrics.eu" />
+
+    <link rel="preconnect" href="//sdp.eu.usercentrics.eu" />
+
+    <link
+      rel="preload"
+      href="//app.eu.usercentrics.eu/browser-ui/latest/loader.js"
+      as="script"
+    />
+
+    <link
+      rel="preload"
+      href="//sdp.eu.usercentrics.eu/latest/uc-block.bundle.js"
+      as="script"
+    />
+    <script
+      id="usercentrics-cmp"
+      async
+      data-eu-mode="true"
+      data-settings-id="5ynsn7jePdkZGw"
+      src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var gaProperty = "G-J1N8PXYZ2E";
+      var disableStr = "ga-disable-" + gaProperty;
+      if (document.cookie.indexOf(disableStr + "=true") > -1) {
+        window[disableStr] = true;
+      }
+      function gaOptout() {
+        document.cookie =
+          disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
+        window[disableStr] = true;
+        alert(
+          "Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert."
+        );
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-J1N8PXYZ2E"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-J1N8PXYZ2E");
+    </script>
+    {{ HEAD }}
+  </head>
+
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>
